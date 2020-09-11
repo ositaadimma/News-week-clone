@@ -1,0 +1,43 @@
+img {
+  width: 100%;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.p-color {
+  color: #f72210;
+}
+
+.div-img {
+  padding: 5px;
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  bottom: 0;
+  text-transform: uppercase;
+}
+
+.img_container {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.img_container a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.c-black {
+  color: #000;
+}
+
+.link-black:hover {
+  color: #000;
+  text-decoration: #f72210 underline;
+}

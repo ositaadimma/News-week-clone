@@ -41,3 +41,17 @@ img {
   color: #000;
   text-decoration: #f72210 underline;
 }
+
+.feature {
+  border-bottom: 2px solid grey;
+}
+
+.card {
+  border: none;
+}
+
+.card-hr {
+  border: 3px solid;
+  margin-top: -4px;
+  margin-bottom: 5px;
+}

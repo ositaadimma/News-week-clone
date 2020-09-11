@@ -1,3 +1,15 @@
+body {
+  margin-top: 30px;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.p-relative {
+  position: relative;
+}
+
 img {
   width: 100%;
 }
@@ -13,7 +25,7 @@ img {
 .div-img {
   padding: 5px;
   position: absolute;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
   left: 0;
   bottom: 0;
   text-transform: uppercase;
@@ -54,4 +66,59 @@ img {
   border: 3px solid;
   margin-top: -4px;
   margin-bottom: 5px;
+}
+
+.right-stories h6,
+.right-stories p {
+  font-size: 1.1rem;
+}
+
+.vs span {
+  padding: 5px;
+}
+
+.vs span::before {
+  content: "";
+  background-color: #f72210;
+  display: block;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 45%;
+}
+
+.vs span::after {
+  content: "";
+  background-color: #f72210;
+  display: block;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 45%;
+  z-index: 1;
+}
+
+.rounded-circle {
+  z-index: 1;
+}
+
+/* .vs-top {
+  border-bottom: 1px solid chocolate;
+  margin-bottom: 1px;
+  padding-bottom: 20px;
+}
+
+.vs-bottom {
+  border-top: 1px solid blue;
+  padding-top: 20px;
+} */
+
+.vs-top {
+  padding-bottom: 20px;
+}
+
+.vs-bottom {
+  padding-top: 20px;
 }

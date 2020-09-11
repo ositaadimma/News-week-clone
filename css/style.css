@@ -68,6 +68,10 @@ img {
   margin-bottom: 5px;
 }
 
+.right-stories {
+  border-bottom: 1px solid gray;
+}
+
 .right-stories h6,
 .right-stories p {
   font-size: 1.1rem;
@@ -121,4 +125,20 @@ img {
 
 .vs-bottom {
   padding-top: 20px;
+  border-bottom: 2px solid gray;
+  margin-bottom: 40px;
+}
+
+.margin-10 {
+  margin-top: 20px;
+}
+
+.line-height {
+  line-height: 2.2rem;
+}
+
+.sub-title {
+  font-size: 0.8rem;
+  color: gray;
+  font-weight: 700;
 }

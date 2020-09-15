@@ -193,3 +193,28 @@ img {
   color: gray;
   font-weight: 700;
 }
+
+.padding-l-b-r-20 {
+  padding: 0 20px 20px 20px;
+}
+
+.s-color {
+  color: #036cbd;
+}
+
+.margin-top-5 {
+  margin-top: 5px;
+}
+
+.p-bg-c {
+  background-color: #f72210;
+}
+
+.c-white {
+  color: #fff;
+  font-weight: 700;
+}
+
+.btn:hover {
+  color: #fff;
+}

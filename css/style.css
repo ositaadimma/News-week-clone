@@ -296,3 +296,13 @@ img {
 .c-pointer {
   cursor: pointer;
 }
+
+.wrapper-image {
+  width: 100px;
+  margin: 0 10px 10px 0;
+}
+
+.m-top-stories {
+  border-top: 1px solid rgb(194, 192, 192);
+  padding-top: 10px;
+}

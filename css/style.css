@@ -195,7 +195,7 @@ img {
 }
 
 .padding-l-b-r-20 {
-  padding: 0 20px 20px 20px;
+  padding: 10px 20px 20px 20px;
 }
 
 .s-color {
@@ -217,6 +217,18 @@ img {
 
 .btn:hover {
   color: #fff;
+}
+
+.border-1 {
+  border: 1px solid #e5e5e5;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.sec-one-col3-img {
+  position: relative;
 }
 
 .sign-up {

@@ -24,12 +24,15 @@ img {
 }
 
 .div-img {
-  padding: 5px;
   position: absolute;
   background-color: rgba(255, 255, 255, 0.9);
   left: 0;
   bottom: 0;
   text-transform: uppercase;
+}
+
+.padding-l-r-b-10 {
+  padding: 0 10px 10px 10px;
 }
 
 .img_container {
@@ -238,6 +241,10 @@ img {
   border: 1px solid #e5e5e5;
   background-color: #f4f5f6;
   padding: 20px;
+}
+
+.padding-5 {
+  padding: 5px;
 }
 
 .img-icon {

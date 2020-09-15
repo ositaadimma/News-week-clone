@@ -24,7 +24,7 @@ img {
 }
 
 .div-img {
-  padding: 5px;
+  padding: 0 5px 10px 5px;
   position: absolute;
   background-color: rgba(255, 255, 255, 0.9);
   left: 0;
@@ -60,25 +60,36 @@ img {
 }
 
 .card {
-  border: 2px solid green;
+  border: none;
 }
 
 .card-right {
-  border: 2px solid green;
 }
 
-.card-right-item1 {
-  border-top: 4px solid #d9d9d9;
-  padding-top: 10px;
-  padding-bottom: 4px;
-  display: flex;
+.col-gap-10 {
   column-gap: 10px;
 }
 
+.d-flex {
+  display: flex;
+}
+
+.b-top-4 {
+  border-top: 4px solid #d9d9d9;
+}
+
+.b-bottom-4 {
+  border-bottom: 4px solid #d9d9d9;
+}
+
+.card-right-item1 {
+  padding-top: 10px;
+  padding-bottom: 4px;
+}
+
 .card-right-pic {
-  height: 150px;
+  height: auto;
   width: 150px;
-  /* float: left; */
 }
 
 .card-right-text a {
@@ -100,10 +111,17 @@ img {
   color: #555;
 }
 
-.card-right-item2 {
+.card-right-sub-text {
+  font-size: 14px;
+  font-weight: 770;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin-top: 4px;
+  color: #555;
 }
 
-.card-subtitle {
+.space-between {
+  justify-content: space-between;
 }
 
 .right-stories {
@@ -151,9 +169,6 @@ img {
 
 .rounded-circle {
   z-index: 1;
-}
-
-.decoration {
 }
 
 .vs-top {

@@ -45,6 +45,10 @@ img {
   text-decoration: none;
 }
 
+.no-decor {
+  text-decoration: none;
+}
+
 .card-body {
   padding: 0;
 }
@@ -262,4 +266,33 @@ img {
   margin-bottom: 15px;
   text-transform: uppercase;
   font-size: 1.18rem;
+}
+
+.c-gray {
+  color: rgb(102, 100, 100);
+}
+
+.center-card-title {
+  font: bold 14px/17px "Roboto Condensed", sans-serif;
+  color: rgb(129, 129, 129);
+  margin-bottom: 10px;
+}
+
+.center-card-title:hover {
+  text-decoration: none;
+  color: rgb(129, 129, 129);
+}
+
+.padding-r-l-10 .col-md,
+.padding-r-l-10 .col-lg,
+.padding-r-l-10 .col-sm-12 {
+  padding: 0 10px;
+}
+
+.culture-bg {
+  background-color: #c2d4d7;
+}
+
+.c-pointer {
+  cursor: pointer;
 }

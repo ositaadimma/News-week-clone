@@ -87,9 +87,8 @@ img {
   padding-bottom: 4px;
 }
 
-.card-right-pic {
-  height: auto;
-  width: 150px;
+.card-right-pic img {
+  width: 63px;
 }
 
 .card-right-text a {

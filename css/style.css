@@ -88,7 +88,6 @@ img {
 
 .card-right-item1 {
   padding-top: 10px;
-  padding-bottom: 4px;
 }
 
 .card-right-pic img {
@@ -98,9 +97,12 @@ img {
 .card-right-text {
   font: bold 17px/21px "Roboto Condensed", sans-serif;
   color: black;
-  margin-bottom: 30px;
+  /* margin-bottom: 2px; */
 }
 
+.right-opinion {
+  border-bottom: 1px solid rgb(194, 192, 192);
+}
 /* .sponsored-insight .card-right-text a {
   font: bold 23px/28px "Roboto Condensed", sans-serif;
 } */

@@ -97,7 +97,6 @@ img {
 .card-right-text {
   font: bold 17px/21px "Roboto Condensed", sans-serif;
   color: black;
-  /* margin-bottom: 2px; */
 }
 
 .right-opinion {
@@ -238,7 +237,7 @@ img {
 }
 
 .margin-bottom-20 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .sec-one-col3-img {

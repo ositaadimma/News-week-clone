@@ -96,12 +96,20 @@ img {
   margin-top: 10px;
 }
 
+.more-stories-text p {
+  margin-top: 5px;
+}
+
 .padding-top-10 {
   padding-top: 10px;
 }
 
-.padding-bottom-10 {
-  padding-bottom: 2px;
+.padding-bottom-12 {
+  padding-bottom: 12px;
+}
+
+.padding-bottom-4 {
+  padding-bottom: 4px;
 }
 
 .card-right-pic img {

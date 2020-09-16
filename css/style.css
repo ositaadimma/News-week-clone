@@ -95,13 +95,17 @@ img {
   width: 63px;
 }
 
-.card-right-text a {
+.card-right-text {
   font: bold 17px/21px "Roboto Condensed", sans-serif;
   color: black;
   margin-bottom: 30px;
 }
 
-.sponsored-insight .card-right-text a {
+/* .sponsored-insight .card-right-text a {
+  font: bold 23px/28px "Roboto Condensed", sans-serif;
+} */
+
+.card-title {
   font: bold 23px/28px "Roboto Condensed", sans-serif;
 }
 

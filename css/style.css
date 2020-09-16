@@ -351,6 +351,10 @@ img {
   align-self: center;
 }
 
+.self-a-center {
+  align-self: center;
+}
+
 .margin-top-25 {
   margin-top: 25px;
 }
@@ -383,4 +387,34 @@ img {
 
 .img-h {
   height: 100%;
+}
+
+.subscribe {
+  background-color: #f4f5f6;
+}
+
+.subscribe img {
+  width: auto;
+}
+
+.subscrib-pic {
+  padding-right: 90px;
+}
+
+.subscrib-text {
+  padding-left: 30px;
+}
+
+.sub1 {
+  position: absolute;
+  top: 15px;
+  left: 70px;
+}
+
+.padding-20 {
+  padding: 20px;
+}
+
+.padding-10 {
+  padding: 10px;
 }

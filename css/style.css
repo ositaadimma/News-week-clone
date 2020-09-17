@@ -1,7 +1,53 @@
 body {
-  margin-top: 30px;
+  margin-top: 1px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f4f5f6;
+}
+
+/* ==========================================================
+
+NAVIGATION BAR SECTION
+
+=========================================================== */
+
+.first-nav {
+  position: relative;
+  z-index: 2;
+  height: 95px;
+  padding: 20px 10px 15px;
+}
+
+.nav-bg {
+  background-color: #f72210;
+}
+
+.nav-text {
+  color: white;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: #ffe400;
+  color: black !important;
+  text-decoration: none;
+}
+
+.btn-f-l {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.nav-middle img {
+  width: 320px;
+  align-self: center;
+  border: 1px solid green;
+}
+
+.border-test {
+  border: 1px solid green;
 }
 
 .row {

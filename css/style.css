@@ -468,6 +468,7 @@ img {
   line-height: 2px;
   color: #666;
   text-decoration: none;
+  margin-top: 13px;
 }
 
 .border-right-1 {
@@ -477,6 +478,7 @@ img {
 .footer-links-2 a {
   line-height: 2px;
   margin-bottom: 10px;
+  margin-top: -2px;
 }
 
 /* MEDIA QUERY */

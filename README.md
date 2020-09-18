@@ -28,6 +28,7 @@ The project is public.
 
 - Github: [@githubhandle](https://github.com/ositaadimma)
 - Linkedin: [linkedin](https://www.linkedin.com/in/ositaadimma-ezugwu-020243132/)
+- Twitter: [@ositaadimma](https://twitter.com/ositaadimma)
 
 👤 **Guillain Bisimwa**
 

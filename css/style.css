@@ -129,10 +129,7 @@ img {
 }
 
 .sticky-content {
-  position: sticky;
-  left: 0;
-  bottom: 0;
-  align-self: flex-end;
+  position: relative;
 }
 
 .div-img {
@@ -620,6 +617,13 @@ img {
 
   .btn-f-l {
     font-size: 13px;
+  }
+
+  .sticky-content {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    align-self: flex-end;
   }
 }
 

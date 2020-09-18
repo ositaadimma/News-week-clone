@@ -561,6 +561,10 @@ NAVIGATION BAR SECTION
   margin-top: -2px;
 }
 
+.no-border-right {
+  border-right: none;
+}
+
 /* MEDIA QUERY */
 @media (min-width: 768px) {
   .subscribe {

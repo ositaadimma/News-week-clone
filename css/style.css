@@ -542,7 +542,7 @@ NAVIGATION BAR SECTION
   color: #666;
 }
 
-.footer-links a {
+.footer-links .border-right-1 {
   padding-top: 10px;
   font-size: 14px;
   line-height: 2px;

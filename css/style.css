@@ -10,11 +10,22 @@ NAVIGATION BAR SECTION
 
 =========================================================== */
 
+header {
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 10;
+}
+
 .first-nav {
   position: relative;
   z-index: 2;
-  height: 95px;
-  padding: 20px 10px 15px;
+  height: 55px;
+  padding: 0 10px 0 0;
+}
+
+.nav-login {
+  display: none;
 }
 
 .nav-bg {
@@ -28,21 +39,36 @@ NAVIGATION BAR SECTION
 
 .btn:hover {
   background-color: #ffe400;
-  color: black !important;
   text-decoration: none;
 }
 
 .btn-f-l {
-  font-size: 16px;
+  font-size: 11px;
   line-height: 20px;
   font-weight: 700;
   padding-left: 3px;
   padding-right: 3px;
 }
 
+.fa-bars,
+.fa-user {
+  font-size: 20px;
+  cursor: pointer;
+  display: block;
+}
+
 .nav-middle img {
-  width: 320px;
+  width: 150px;
   align-self: center;
+  align-items: center;
+}
+
+.align-item-c {
+  align-items: center;
+}
+
+.m-l-10 {
+  margin-left: 10px;
 }
 
 .second-nav .navbar-nav li a {
@@ -56,10 +82,22 @@ NAVIGATION BAR SECTION
 
 .third-nav .navbar-nav li a {
   line-height: 5px;
+  color: #666;
   font-weight: 700;
   padding: 8px;
   margin-left: 5px;
   text-transform: uppercase;
+}
+
+.second-nav a.nav-link:hover,
+.third-nav .nav-link:hover {
+  color: #f72210;
+}
+
+.second-nav,
+.third-nav,
+.nav-left {
+  display: none;
 }
 
 .row {
@@ -573,5 +611,41 @@ img {
     align-items: flex-start;
     position: relative;
     margin-top: 0;
+  }
+
+  .fa-bars,
+  .fa-user {
+    font-size: 30px;
+  }
+
+  .btn-f-l {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .second-nav,
+  .third-nav,
+  .nav-left {
+    display: block;
+  }
+
+  .fa-bars,
+  .fa-user {
+    display: none;
+  }
+
+  .nav-middle img {
+    width: 320px;
+    align-self: center;
+  }
+
+  .first-nav {
+    height: 95px;
+    padding: 20px 10px 15px;
+  }
+
+  .nav-login {
+    display: inline;
   }
 }

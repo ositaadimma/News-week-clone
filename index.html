@@ -32,18 +32,20 @@
       ############################################################################### -->
       <header>
         <nav
-          class="first-nav border-1 d-flex nav-bg justify-content-between p-relative"
+          class="first-nav pt-50 border-1 d-flex nav-bg justify-content-between p-relative"
         >
-          <div class="nav-left border-test nav-text mt-3 pt-2">
+          <div class="d-none d-lg-block border-test nav-text mt-3 pt-2">
             Thu, Sep 17, 2020
           </div>
           <div class="nav-middle d-flex">
             <img src="img/newsweek-logo-white.png" alt="top logo" />
           </div>
           <div class="nav-right border-test d-flex align-item-c">
-            <div class="nav-login nav-text text-uppercase">login</div>
+            <div class="d-none d-lg-block nav-text text-uppercase">login</div>
             <div class="d-inline">
-              <i class="fas fa-user text-white-50 m-l-10"></i>
+              <i
+                class="fas fa-user text-white-50 m-l-10 d-md-block d-lg-none"
+              ></i>
             </div>
             <div class="nav-btn d-inline">
               <button
@@ -54,13 +56,17 @@
               </button>
             </div>
             <div class="nav-btn d-inline">
-              <i class="fas fa-bars text-white-50 m-l-10"></i>
+              <i
+                class="fas fa-bars text-white-50 m-l-10 d-md-block d-lg-none"
+              ></i>
             </div>
           </div>
         </nav>
       </header>
       <main class="container-fluid">
-        <nav class="second-nav navbar navbar-expand-lg bg-light border-1">
+        <nav
+          class="second-nav d-none d-lg-block navbar navbar-expand-lg bg-light border-1"
+        >
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li>
               <a class="nav-link navbar-links-one" rel="noopener" href="#"
@@ -119,7 +125,9 @@
             </li>
           </ul>
         </nav>
-        <nav class="third-nav navbar navbar-expand-lg bg-light border-1">
+        <nav
+          class="third-nav d-none d-lg-block navbar navbar-expand-lg bg-light border-1"
+        >
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li>
               <a class="nav-link navbar-links-two" rel="noopener" href="#"
@@ -163,7 +171,7 @@
           <section class="section-one padding-top-10">
             <div class="row">
               <div class="col-md-5 col-lg stories">
-                <div class="card top-stories-order pb-4">
+                <div class="card d-block d-md-none pb-4">
                   <h6 class="card-subtitle mb-2 first-title">TOP STORY</h6>
                   <div class="card-body">
                     <div class="img_container p-relative">
@@ -339,7 +347,7 @@
                   </div>
 
                   <!-- Ordered - The debate and opinion part -->
-                  <div class="debate-order-featured">
+                  <div class="d-block d-md-none">
                     <div class="card-right">
                       <h6 class="first-title">THE DEBATE</h6>
                       <div class="wrapper p-relative py-3">
@@ -648,7 +656,7 @@
               <div
                 class="col-md-7 col-lg-5 stories p-relative sticky-content d-flex flex-column"
               >
-                <div class="card featured-stories-order">
+                <div class="card d-none d-md-block">
                   <h6 class="card-subtitle mb-2 first-title">TOP STORY</h6>
                   <div class="card-body">
                     <div class="img_container p-relative">
@@ -680,7 +688,9 @@
            MY TURN
 
         ################################################################################   -->
-                <div class="row margin-10 padding-r-l-10 order-sm-2 order-md-1">
+                <div
+                  class="row margin-10 padding-r-l-10 order-2 order-sm-2 order-md-1 order-lg-1"
+                >
                   <div class="col-sm-12">
                     <h6 class="first-title">MY TURN</h6>
                   </div>
@@ -728,7 +738,9 @@
            CULTURE AND TRAVEL
 
         ################################################################################   -->
-                <div class="row margin-10 padding-r-l-10 order-sm-3 order-md-2">
+                <div
+                  class="row margin-10 padding-r-l-10 order-3 order-sm-3 order-md-2 order-lg-2"
+                >
                   <div class="col-sm-12">
                     <h6 class="first-title">CULTURE & TRAVEL</h6>
                   </div>
@@ -786,7 +798,9 @@
            MORE STORIES
 
         ################################################################################   -->
-                <div class="row margin-10 d-flex order-sm-1 order-md-3">
+                <div
+                  class="row margin-10 d-flex order-1 order-sm-1 order-md-3 order-lg-3"
+                >
                   <div class="col-sm-12">
                     <h6 class="first-title">MORE STORIES</h6>
                   </div>
@@ -1089,7 +1103,7 @@
 
         ################################################################################   -->
               <div class="col-lg">
-                <div class="debate-order">
+                <div class="d-none d-md-block">
                   <div class="card-right">
                     <h6 class="first-title">THE DEBATE</h6>
                     <div class="wrapper p-relative py-3">
@@ -1472,12 +1486,7 @@
               <div class="col-md-3">
                 <div class="img_container p-relative margin-top-25">
                   <div class="img-div">
-                    <img
-                      class="img-h"
-                      alt="Articles"
-                      src="img/mag1.jpg"
-                      alt="usa"
-                    />
+                    <img class="img-h" src="img/mag1.jpg" alt="usa" />
                   </div>
                   <div class="magazine-footer-div d-flex margin-top-10">
                     <div class="magazine-footer-text1">cover</div>

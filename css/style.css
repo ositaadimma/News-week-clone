@@ -26,10 +26,6 @@ NAVIGATION BAR SECTION
   padding: 0 10px 0 0;
 }
 
-.nav-login {
-  display: none;
-}
-
 .nav-bg {
   background-color: #f72210;
 }
@@ -51,7 +47,6 @@ NAVIGATION BAR SECTION
 .fa-user {
   font-size: 20px;
   cursor: pointer;
-  display: block;
 }
 
 .nav-middle img {
@@ -89,12 +84,6 @@ NAVIGATION BAR SECTION
 .second-nav a.nav-link:hover,
 .third-nav a.nav-link:hover {
   color: #f72210;
-}
-
-.second-nav,
-.third-nav,
-.nav-left {
-  display: none;
 }
 
 .row {
@@ -135,16 +124,6 @@ NAVIGATION BAR SECTION
 
 .img_container {
   padding-bottom: 10px;
-}
-
-.top-stories-order,
-.debate-order-featured {
-  display: block;
-}
-
-.featured-stories-order,
-.debate-order {
-  display: none;
 }
 
 .img_container a:hover {
@@ -470,18 +449,6 @@ NAVIGATION BAR SECTION
   font: bold 16px/19px "Roboto Condensed", sans-serif;
 }
 
-/* .img-div {
-  height: 294px;
-}
-
-.img-div2 {
-  height: 320px;
-} */
-/* 
-.img-h {
-  height: 100%;
-} */
-
 .subscribe {
   background-color: #f4f5f6;
   display: block;
@@ -614,30 +581,9 @@ NAVIGATION BAR SECTION
     bottom: 0;
     align-self: flex-end;
   }
-
-  .top-stories-order,
-  .debate-order-featured {
-    display: none;
-  }
-
-  .featured-stories-order,
-  .debate-order {
-    display: block;
-  }
 }
 
 @media (min-width: 1024px) {
-  .second-nav,
-  .third-nav,
-  .nav-left {
-    display: block;
-  }
-
-  .fa-bars,
-  .fa-user {
-    display: none;
-  }
-
   .nav-middle img {
     width: 320px;
     align-self: center;
@@ -646,9 +592,5 @@ NAVIGATION BAR SECTION
   .first-nav {
     height: 95px;
     padding: 20px 10px 15px;
-  }
-
-  .nav-login {
-    display: inline;
   }
 }

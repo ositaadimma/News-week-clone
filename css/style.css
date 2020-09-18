@@ -137,6 +137,16 @@ NAVIGATION BAR SECTION
   padding-bottom: 10px;
 }
 
+.top-stories-order,
+.debate-order-featured {
+  display: block;
+}
+
+.featured-stories-order,
+.debate-order {
+  display: none;
+}
+
 .img_container a:hover {
   color: #f72210;
   text-decoration: none;
@@ -169,10 +179,6 @@ NAVIGATION BAR SECTION
 
 .col-gap-10 {
   column-gap: 10px;
-}
-
-.d-flex {
-  display: flex;
 }
 
 .b-top-4 {
@@ -607,6 +613,16 @@ NAVIGATION BAR SECTION
     position: sticky;
     bottom: 0;
     align-self: flex-end;
+  }
+
+  .top-stories-order,
+  .debate-order-featured {
+    display: none;
+  }
+
+  .featured-stories-order,
+  .debate-order {
+    display: block;
   }
 }
 

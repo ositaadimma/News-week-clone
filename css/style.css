@@ -332,8 +332,12 @@ NAVIGATION BAR SECTION
 
 .btn:hover {
   color: #fff;
+}
+
+.rounded-pill:hover {
   background-color: #ffe400;
   text-decoration: none;
+  color: #666;
 }
 
 .border-1 {
@@ -426,10 +430,6 @@ NAVIGATION BAR SECTION
   margin: 0 5px;
 }
 
-.self-a-center {
-  align-self: center;
-}
-
 .margin-top-25 {
   margin-top: 25px;
 }
@@ -500,6 +500,10 @@ NAVIGATION BAR SECTION
   background: url("../img/bg-news.png") center center / cover no-repeat;
 }
 
+.newletter-text p {
+  font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .newsletter-form {
   color: white;
   text-transform: uppercase;
@@ -558,12 +562,6 @@ NAVIGATION BAR SECTION
 
 /* MEDIA QUERY */
 
-@media (max-width: 767px) {
-  .newletter-text {
-    text-align: center;
-  }
-}
-
 @media (min-width: 768px) {
   .subscribe {
     background-color: #f4f5f6;
@@ -581,7 +579,7 @@ NAVIGATION BAR SECTION
   }
 
   .subscrib-pic {
-    padding-right: 90px;
+    padding-right: 80px;
     position: relative;
   }
 

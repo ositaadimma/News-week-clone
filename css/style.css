@@ -415,7 +415,6 @@ NAVIGATION BAR SECTION
 .magazine {
   font: bold 19px/19px "Roboto Condensed", sans-serif;
   margin-bottom: 15px;
-  /* text-transform: uppercase; */
   padding-bottom: 8px;
   justify-content: center;
 }

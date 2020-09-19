@@ -369,14 +369,14 @@ NAVIGATION BAR SECTION
   margin-right: 10px;
 }
 
+.newletter-text p {
+  font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .sign-up .d-flex p {
   font: bold 15px/18px "Roboto Condensed", sans-serif;
   margin-bottom: 15px;
   text-transform: uppercase;
-}
-
-.newletter-text p {
-  font: 300 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .c-gray {

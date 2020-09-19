@@ -500,7 +500,7 @@ NAVIGATION BAR SECTION
   background: url("../img/bg-news.png") center center / cover no-repeat;
 }
 
-.newsletter-form {
+/* .newsletter-form {
   color: white;
   text-transform: uppercase;
   cursor: pointer;
@@ -512,7 +512,7 @@ NAVIGATION BAR SECTION
   border-radius: 5px;
   padding: 18px;
   margin-top: 8px;
-}
+} */
 
 .band {
   display: block;

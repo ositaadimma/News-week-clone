@@ -214,6 +214,10 @@ NAVIGATION BAR SECTION
   font: bold 23px/25px "Roboto Condensed", sans-serif;
 }
 
+.card-title-2 {
+  font: bold 18px/21px "Roboto Condensed", sans-serif;
+}
+
 .card-right-text2 {
   font-size: 14px;
   line-height: 21px;
@@ -411,7 +415,7 @@ NAVIGATION BAR SECTION
 .magazine {
   font: bold 19px/19px "Roboto Condensed", sans-serif;
   margin-bottom: 15px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   padding-bottom: 8px;
   justify-content: center;
 }

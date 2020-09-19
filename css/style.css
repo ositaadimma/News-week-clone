@@ -508,7 +508,7 @@ NAVIGATION BAR SECTION
   font-size: 0;
   font-family: "Roboto Condensed", sans-serif;
   background: url("https://g.newsweek.com/www/images/free-sign-up.svg")
-    no-repeat;
+    center/108px no-repeat;
   background-color: #f61602;
   border-radius: 5px;
   padding: 18px;

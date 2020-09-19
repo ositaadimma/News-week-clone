@@ -556,6 +556,7 @@ NAVIGATION BAR SECTION
 }
 
 /* MEDIA QUERY */
+
 @media (max-width: 767px) {
   .newletter-text {
     text-align: center;

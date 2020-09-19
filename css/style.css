@@ -562,6 +562,13 @@ NAVIGATION BAR SECTION
 
 /* MEDIA QUERY */
 
+@media (max-width: 767px) {
+  .newletter-text,
+  .newletter-text p {
+    text-align: center;
+  }
+}
+
 @media (min-width: 768px) {
   .subscribe {
     background-color: #f4f5f6;

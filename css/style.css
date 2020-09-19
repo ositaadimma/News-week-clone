@@ -563,8 +563,7 @@ NAVIGATION BAR SECTION
 /* MEDIA QUERY */
 
 @media (max-width: 767px) {
-  .newletter-text,
-  .newletter-text p {
+  .newletter-text {
     text-align: center;
   }
 }

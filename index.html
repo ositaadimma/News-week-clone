@@ -1,0 +1,2463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Newsweek project</title>
+  </head>
+  <body>
+    <div>
+      <!-- ###############################################################################
+  
+      HEADER
+
+      ############################################################################### -->
+      <header>
+        <nav
+          class="first-nav pt-50 border-1 d-flex nav-bg justify-content-between p-relative"
+        >
+          <div class="d-none d-md-none d-lg-block text-white nav-icons-left">
+            <div class="d-flex align-items-center col-gap-5 mb-2">
+              <i class="fas fa-cloud"></i>
+              <p class="font-weight-bold mb-0">24°, Goma, CD</p>
+              <i class="fas fa-angle-right"></i>
+            </div>
+            <div>Thu, Sep 17, 2020</div>
+          </div>
+          <div class="nav-middle d-flex">
+            <img src="img/newsweek-logo-white.png" alt="top logo" />
+          </div>
+          <div class="nav-right border-test d-flex align-item-c">
+            <div
+              class="d-none d-md-block text-white font-weight-bold text-uppercase"
+            >
+              login
+            </div>
+            <div class="d-inline">
+              <i
+                class="fas fa-user text-white-50 ml-2 d-sm-block d-md-none"
+              ></i>
+            </div>
+            <div class="nav-btn d-inline">
+              <button
+                type="button"
+                class="btn btn-warning text-uppercase rounded-pill btn-f-l ml-2"
+              >
+                subscribe <i class="fas fa-angle-right"></i>
+              </button>
+            </div>
+            <div class="nav-btn d-inline">
+              <i
+                class="fas fa-bars text-white-50 ml-2 d-md-block d-lg-none"
+              ></i>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main class="container-fluid p-0">
+        <nav
+          class="second-nav d-none d-lg-block navbar navbar-expand-lg bg-light border-1"
+        >
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li>
+              <a class="nav-link navbar-links-one" rel="noopener" href="#"
+                >U.S.</a
+              >
+            </li>
+            <li>
+              <a class="nav-link navbar-links-one" rel="noopener" href="#"
+                >World</a
+              >
+            </li>
+            <li>
+              <a class="nav-link navbar-links-one" rel="noopener" href="#"
+                >Business</a
+              >
+            </li>
+            <li>
+              <a class="nav-link navbar-links-one" rel="noopener" href="#"
+                >Tech & Science</a
+              >
+            </li>
+            <li>
+              <a class="nav-link navbar-links-one" rel="noopener" href="#"
+                >Culture</a
+              >
+            </li>
+            <li>
+              <a class="nav-link navbar-links-one" rel="noopener" href="#"
+                >Newsgeek</a
+              >
+            </li>
+            <li>
+              <a class="nav-link navbar-links-one" rel="noopener" href="#"
+                >Sports</a
+              >
+            </li>
+            <li>
+              <a class="nav-link navbar-links-one" rel="noopener" href="#"
+                >Health</a
+              >
+            </li>
+            <li>
+              <a class="nav-link navbar-links-one" rel="noopener" href="#"
+                >The Debate</a
+              >
+            </li>
+            <li>
+              <a class="nav-link navbar-links-one" rel="noopener" href="#"
+                >Vantage</a
+              >
+            </li>
+            <li>
+              <a class="nav-link navbar-links-one" rel="noopener" href="#"
+                >Weather</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <nav
+          class="third-nav d-none d-lg-block navbar navbar-expand-lg bg-light border-1"
+        >
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li>
+              <a class="nav-link navbar-links-two" rel="noopener" href="#"
+                >trending</a
+              >
+            </li>
+            <li>
+              <a class="nav-link navbar-links-two" rel="noopener" href="#"
+                >donald trump</a
+              >
+            </li>
+            <li>
+              <a class="nav-link navbar-links-two" rel="noopener" href="#"
+                >joe biden</a
+              >
+            </li>
+            <li>
+              <a class="nav-link navbar-links-two" rel="noopener" href="#"
+                >china</a
+              >
+            </li>
+            <li>
+              <a class="nav-link navbar-links-two" rel="noopener" href="#"
+                >Coronavirus</a
+              >
+            </li>
+            <li>
+              <a class="nav-link navbar-links-two" rel="noopener" href="#"
+                >2020 election</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="container-fluid color-white border-1">
+          <!-- ###############################################################################
+
+           SECTION ONE FEATURED STORIES
+
+        ################################################################################   -->
+          <section class="section-one pt-2">
+            <div class="row">
+              <div class="col-md-5 col-lg stories">
+                <div class="card d-block d-md-none pb-4">
+                  <h6 class="card-subtitle mb-2 first-title">TOP STORY</h6>
+                  <div class="card-body">
+                    <div class="img_container p-relative">
+                      <img src="img/joe-biden.jpg" alt="Lebanon" />
+                      <div class="div-img px-2 pb-2">
+                        <a
+                          class="p-color font-weight-bold"
+                          rel="noopener"
+                          href="#"
+                          >News</a
+                        >
+                      </div>
+                    </div>
+                    <div class="card-title">
+                      <a class="c-black link-black" rel="noopener" href="#">
+                        Biden Leads Trump by Double Digits With Senior Voters
+                        Over 65</a
+                      >
+                    </div>
+                    <p class="card-text">
+                      A new national poll shows former Vice President Joe Biden
+                      maintaining an 11 percent advantage over President Donald
+                      Trump among voters aged 65 or older.
+                    </p>
+                  </div>
+                </div>
+                <div class="card">
+                  <h6 class="card-subtitle mb-2 first-title">
+                    FEATURED STORIES
+                  </h6>
+                  <div class="card-body">
+                    <div class="img_container p-relative">
+                      <img src="img/lebanon.jpg" alt="Lebanon" />
+                      <div class="div-img px-2 pb-2">
+                        <a
+                          class="p-color font-weight-bold"
+                          rel="noopener"
+                          href="#"
+                          >World</a
+                        >
+                      </div>
+                    </div>
+                    <h5 class="card-title">
+                      <a class="c-black link-black" rel="noopener" href="#">
+                        Lebanon Battles New Beirut Port Fire, Downs Israel Drone
+                        As Crises Continue</a
+                      >
+                    </h5>
+                    <p class="card-text">
+                      The latest blaze in Beirut reportedly broke out "far from"
+                      the site of the blast that killed more than 190 people
+                      last month, but just last week Lebanese authorities
+                      discovered several tones more of explosive ammonium
+                      nitrate at the port.
+                    </p>
+                  </div>
+                  <div class="card-body mt-2">
+                    <div class="img_container p-relative">
+                      <img src="img/sec-one-col1-2.jpg" alt="usa" />
+                      <div class="div-img px-2 pb-2">
+                        <a
+                          class="p-color font-weight-bold"
+                          rel="noopener"
+                          href="#"
+                          >U.S.</a
+                        >
+                      </div>
+                    </div>
+                    <div class="card-title">
+                      <a class="c-black link-black" rel="noopener" href="#">
+                        Qatar Walks Tightrope Between Iran and the U.S., Is
+                        Prepared to Host Talks</a
+                      >
+                    </div>
+                    <p class="card-text">
+                      The latest blaze in Beirut reportedly broke out "far from"
+                      the site of the blast that killed more than 190 people
+                      last month, but just last week Lebanese authorities
+                      discovered several tones more of explosive ammonium
+                      nitrate at the port.
+                    </p>
+                  </div>
+                  <div class="card-body mt-2">
+                    <div class="img_container p-relative">
+                      <img src="img/sec-one-col1-3.jpg" alt="usa" />
+                      <div class="div-img px-2 pb-2">
+                        <a
+                          class="p-color font-weight-bold"
+                          rel="noopener"
+                          href="#"
+                          >U.S.</a
+                        >
+                      </div>
+                    </div>
+                    <div class="card-title">
+                      <a class="c-black link-black" rel="noopener" href="#">
+                        Qatar Walks Tightrope Between Iran and the U.S., Is
+                        Prepared to Host Talks</a
+                      >
+                    </div>
+                    <p class="card-text">
+                      The latest blaze in Beirut reportedly broke out "far from"
+                      the site of the blast that killed more than 190 people
+                      last month, but just last week Lebanese authorities
+                      discovered several tones more of explosive ammonium
+                      nitrate at the port.
+                    </p>
+                  </div>
+                  <div class="card-body mt-2">
+                    <div class="img_container p-relative">
+                      <img src="img/sec-one-col1-4.jpg" alt="usa" />
+                      <div class="div-img px-2 pb-2">
+                        <a
+                          class="p-color font-weight-bold"
+                          rel="noopener"
+                          href="#"
+                          >U.S.</a
+                        >
+                      </div>
+                    </div>
+                    <div class="card-title">
+                      <a class="c-black link-black" rel="noopener" href="#">
+                        Qatar Walks Tightrope Between Iran and the U.S., Is
+                        Prepared to Host Talks</a
+                      >
+                    </div>
+                    <p class="card-text">
+                      The latest blaze in Beirut reportedly broke out "far from"
+                      the site of the blast that killed more than 190 people
+                      last month, but just last week Lebanese authorities
+                      discovered several tones more of explosive ammonium
+                      nitrate at the port.
+                    </p>
+                  </div>
+                  <div class="card-body mt-2">
+                    <div class="img_container p-relative">
+                      <img src="img/sec-one-col1-5.jpg" alt="usa" />
+                      <div class="div-img px-2 pb-2">
+                        <a
+                          class="p-color font-weight-bold"
+                          rel="noopener"
+                          href="#"
+                          >U.S.</a
+                        >
+                      </div>
+                    </div>
+                    <div class="card-title">
+                      <a class="c-black link-black" rel="noopener" href="#">
+                        Qatar Walks Tightrope Between Iran and the U.S., Is
+                        Prepared to Host Talks</a
+                      >
+                    </div>
+                    <p class="card-text">
+                      The latest blaze in Beirut reportedly broke out "far from"
+                      the site of the blast that killed more than 190 people
+                      last month, but just last week Lebanese authorities
+                      discovered several tones more of explosive ammonium
+                      nitrate at the port.
+                    </p>
+                  </div>
+
+                  <div
+                    class="more-stories-text border-bottom border-top mt-2 mb-2 pt-2 pb-2"
+                  >
+                    <a
+                      class="c-black link-black card-right-text"
+                      rel="noopener"
+                      href="#"
+                    >
+                      California Reeling From Double Blow of COVID-19 and
+                      Wildfires
+                    </a>
+                  </div>
+                  <!-- Ordered - The debate and opinion part -->
+                  <div class="d-block d-md-none">
+                    <div class="card-right">
+                      <h6 class="first-title">THE DEBATE</h6>
+                      <div class="wrapper p-relative py-3">
+                        <div
+                          class="card-right-item1 b-top-4 d-flex col-gap-10 pb-1"
+                        >
+                          <div class="card-right-pic">
+                            <img
+                              src="img/john-rosenthal.png"
+                              alt="Profile picture"
+                            />
+                          </div>
+                          <div class="card-right-text">
+                            <a
+                              class="c-black link-black"
+                              rel="noopener"
+                              href="#"
+                            >
+                              Americans' Very Right to Keep and Bear Arms Is on
+                              the Ballot This Election
+                            </a>
+                            <p class="card-right-text2">
+                              <span> BY </span>JOHN R. LOTT, JR
+                            </p>
+                          </div>
+                        </div>
+                        <div
+                          class="decoration-container text-center w-100 my-3"
+                        >
+                          <span class="decoration p-relative align-middle"
+                            >VS</span
+                          >
+                        </div>
+                        <div
+                          class="card-right-item1 d-flex space-between col-gap-10 b-bottom-4 pb-2 pt-2"
+                        >
+                          <div class="card-right-text">
+                            <a
+                              class="c-black link-black"
+                              rel="noopener"
+                              href="#"
+                            >
+                              Individual Gun Ownership Is Not at Stake in This
+                              Election
+                            </a>
+                            <p class="card-right-text2">
+                              <span> BY </span>JOHN E. ROSENTHAL
+                            </p>
+                          </div>
+                          <div class="card-right-pic">
+                            <img
+                              src="img/john-rosenthal.png"
+                              alt="Profile picture"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-right mt-2">
+                      <h6 class="first-title">OPINION</h6>
+                      <div
+                        class="card-right-item1 d-flex col-gap-10 right-opinion mt-2"
+                      >
+                        <div class="card-right-pic">
+                          <img
+                            src="img/abdul-el-sayed.png"
+                            alt="Profile picture"
+                          />
+                        </div>
+                        <div class="card-right-text">
+                          <a class="c-black link-black" rel="noopener" href="#">
+                            The COVID-19 Vaccine Can Be a Shot in the Arm for
+                            Americans—or Trump
+                          </a>
+                          <p class="card-right-sub-text">
+                            <span> BY </span>ABDUL EL-SAYED
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="card-right-item1 d-flex col-gap-10 right-opinion mt-2"
+                    >
+                      <div class="card-right-pic">
+                        <img
+                          src="img/sec-one-col3-2.png"
+                          alt="Profile picture"
+                        />
+                      </div>
+                      <div class="card-right-text">
+                        <a class="c-black link-black" rel="noopener" href="#">
+                          On 9/11, Remember the Veterans Who Stood to Defend
+                          America
+                        </a>
+                        <p class="card-right-sub-text">
+                          <span> BY </span>ROBERT WILKIE
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="card-right-item1 d-flex col-gap-10 right-opinion mt-2"
+                    >
+                      <div class="card-right-pic">
+                        <img
+                          src="img/sec-one-col3-3.png"
+                          alt="Profile picture"
+                        />
+                      </div>
+                      <div class="card-right-text">
+                        <a class="c-black link-black" rel="noopener" href="#">
+                          Barr's Move to Defend Trump Against Carroll Is a
+                          Betrayal of All Survivors
+                        </a>
+                        <p class="card-right-sub-text">
+                          <span> BY </span>JOAN COOK AND ANNE P. DEPRINCE
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="card-right-item1 d-flex col-gap-10 right-opinion mt-2"
+                    >
+                      <div class="card-right-pic">
+                        <img
+                          src="img/sec-one-col3-4.png"
+                          alt="Profile picture"
+                        />
+                      </div>
+                      <div class="card-right-text">
+                        <a class="c-black link-black" rel="noopener" href="#">
+                          The Chinese Army Flops in India. What Will Xi Do Next?
+                        </a>
+                        <p class="card-right-sub-text">
+                          <span> BY </span>GORDON G. CHANG
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="card-right-item1 d-flex col-gap-10 right-opinion mt-2"
+                    >
+                      <div class="card-right-pic">
+                        <img
+                          src="img/sec-one-col3-5.png"
+                          alt="Profile picture"
+                        />
+                      </div>
+                      <div class="card-right-text">
+                        <a class="c-black link-black" rel="noopener" href="#">
+                          Secession, From Either Left or Right
+                        </a>
+                        <p class="card-right-sub-text">
+                          <span> BY </span> MICHAEL ANTON
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="card-right-item1 d-flex col-gap-10 right-opinion mt-2"
+                    >
+                      <div class="card-right-pic">
+                        <img
+                          src="img/sec-one-col3-6.png"
+                          alt="Profile picture"
+                        />
+                      </div>
+                      <div class="card-right-text">
+                        <a class="c-black link-black" rel="noopener" href="#">
+                          Trump Will Never Understand Marines Like Me
+                        </a>
+                        <p class="card-right-sub-text">
+                          <span> BY </span>KYLE BIBBY
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card-right-item1 d-flex col-gap-10 mt-2">
+                      <div class="card-right-pic">
+                        <img
+                          src="img/sec-one-col3-7.png"
+                          alt="Profile picture"
+                        />
+                      </div>
+                      <div class="card-right-text">
+                        <a class="c-black link-black" rel="noopener" href="#">
+                          College Administrators Must Address Anti-Semitism on
+                          Their Campuses
+                        </a>
+                        <p class="card-right-sub-text">
+                          <span> BY </span>LAURI B. REGAN AND ASAF ROMIROWSKY
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- section One part 2 -->
+                  <div>
+                    <div class="card-body mt-2">
+                      <div class="p-relative">
+                        <img src="img/sec-one-col1-6.png" alt="Lebanon" />
+                        <div class="div-img px-1 py-1">
+                          <span class="s-color font-weight-bold py-1 px-1"
+                            >RANKING</span
+                          >
+                        </div>
+                      </div>
+                      <div class="padding-l-b-r-20 border-1 mb-4">
+                        <div class="card-title">
+                          <a class="c-black link-black" rel="noopener" href="#">
+                            Best Infection Prevention Products</a
+                          >
+                        </div>
+                        <p class="card-text">
+                          During the coronavirus outbreak, health care is more
+                          important than ever. In Newsweek's first Best Health
+                          Care series, we highlight the best infection
+                          prevention products.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card-body mt-2">
+                      <div class="p-relative">
+                        <img src="img/sec-one-col1-2.jpg" alt="Lebanon" />
+                        <div class="div-img px-1 py-1">
+                          <span class="s-color font-weight-bold"
+                            >RANKINGSzzz</span
+                          >
+                        </div>
+                      </div>
+                      <div class="padding-l-b-r-20 border-1 mb-4">
+                        <div class="card-title">
+                          <a class="c-black link-black" rel="noopener" href="#">
+                            Best Infection Prevention Products</a
+                          >
+                        </div>
+                        <p class="card-text">
+                          During the coronavirus outbreak, health care is more
+                          important than ever. In Newsweek's first Best Health
+                          Care series, we highlight the best infection
+                          prevention products.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card-body mt-2">
+                      <div class="p-relative">
+                        <img src="img/sec-one-col1-2.jpg" alt="Lebanon" />
+                        <div class="div-img px-1 py-1">
+                          <span class="s-color font-weight-bold">RANKINGS</span>
+                        </div>
+                      </div>
+                      <div class="padding-l-b-r-20 border-1 mb-4">
+                        <div class="card-title">
+                          <a class="c-black link-black" rel="noopener" href="#">
+                            Best Infection Prevention Products</a
+                          >
+                        </div>
+                        <p class="card-text">
+                          During the coronavirus outbreak, health care is more
+                          important than ever. In Newsweek's first Best Health
+                          Care series, we highlight the best infection
+                          prevention products.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card-body mt-2">
+                      <div class="p-relative">
+                        <img src="img/sec-one-col1-3.jpg" alt="Lebanon" />
+                        <div class="div-img px-1 py-1">
+                          <span class="s-color font-weight-bold">RANKINGS</span>
+                        </div>
+                      </div>
+                      <div class="padding-l-b-r-20 border-1 mb-4">
+                        <div class="card-title">
+                          <a class="c-black link-black" rel="noopener" href="#">
+                            Best Infection Prevention Products</a
+                          >
+                        </div>
+                        <p class="card-text">
+                          During the coronavirus outbreak, health care is more
+                          important than ever. In Newsweek's first Best Health
+                          Care series, we highlight the best infection
+                          prevention products.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card-body mt-2">
+                      <div class="p-relative">
+                        <img src="img/sec-one-col1-4.jpg" alt="Lebanon" />
+                      </div>
+                      <div class="padding-l-b-r-20 border-1 mb-4">
+                        <div class="card-title">
+                          <a class="c-black link-black" rel="noopener" href="#">
+                            Best Infection Prevention Products1</a
+                          >
+                        </div>
+                        <p class="card-text">
+                          During the coronavirus outbreak, health care is more
+                          important than ever. In Newsweek's first Best Health
+                          Care series, we highlight the best infection
+                          prevention products.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- ###############################################################################
+
+              TOP STORY
+
+            ############################################################################   -->
+              <div
+                class="col-md-7 col-lg-5 stories p-relative sticky-content d-flex flex-column"
+              >
+                <div class="card d-none d-md-block">
+                  <h6 class="card-subtitle mb-2 first-title">TOP STORY2</h6>
+                  <div class="card-body">
+                    <div class="img_container p-relative">
+                      <img src="img/joe-biden.jpg" alt="Lebanon" />
+                      <div class="div-img px-2 pb-2">
+                        <a
+                          class="p-color font-weight-bold"
+                          rel="noopener"
+                          href="#"
+                          >News</a
+                        >
+                      </div>
+                    </div>
+                    <div class="card-title">
+                      <a class="c-black link-black" rel="noopener" href="#">
+                        Biden Leads Trump by Double Digits With Senior Voters
+                        Over 65</a
+                      >
+                    </div>
+                    <p class="card-text">
+                      A new national poll shows former Vice President Joe Biden
+                      maintaining an 11 percent advantage over President Donald
+                      Trump among voters aged 65 or older.
+                    </p>
+                  </div>
+                </div>
+                <!-- ###############################################################################
+
+           MY TURN
+
+        ################################################################################   -->
+                <div
+                  class="row mt-2 padding-r-l-10 order-2 order-sm-2 order-md-1 order-lg-1"
+                >
+                  <div class="col-sm-12">
+                    <h6 class="first-title">MY TURN</h6>
+                  </div>
+                  <div class="col-md col-lg">
+                    <div class="card-body">
+                      <div class="img_container p-relative">
+                        <img src="img/sec-one-col2-1.jpg" alt="Lebanon" />
+                      </div>
+                      <div>
+                        <a class="center-card-title" rel="noopener" href="#">
+                          'I'm a Marriage Therapist, Here Are 3 Ways Marriage
+                          Has Changed'</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md col-lg">
+                    <div class="card-body">
+                      <div class="img_container p-relative">
+                        <img src="img/sec-one-col2-2.png" alt="Lebanon" />
+                      </div>
+                      <div>
+                        <a class="center-card-title" rel="noopener" href="#">
+                          'I Am an 11-year-old Who Has Made Thousands of Dollars
+                          From Baking Cakes'</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md col-lg">
+                    <div class="card-body">
+                      <div class="img_container p-relative">
+                        <img src="img/sec-one-col2-3.jpg" alt="Lebanon" />
+                      </div>
+                      <div>
+                        <a class="center-card-title" rel="noopener" href="#">
+                          We're Raising Our Kids at Sea During Covid-19'</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- ###############################################################################
+
+           CULTURE AND TRAVEL
+
+        ################################################################################   -->
+                <div
+                  class="row mt-2 padding-r-l-10 order-3 order-sm-3 order-md-2 order-lg-2"
+                >
+                  <div class="col-sm-12">
+                    <h6 class="first-title">CULTURE & TRAVEL</h6>
+                  </div>
+                  <div class="col-md col-lg">
+                    <div class="card-body">
+                      <div class="img_container p-relative">
+                        <img src="img/sec-one-col2-1.jpg" alt="Lebanon" />
+                        <div class="div-img px-2 pb-2 c-pointer">
+                          <span class="c-gray font-weight-bold">TRAVEL</span>
+                        </div>
+                      </div>
+                      <div>
+                        <a class="center-card-title" rel="noopener" href="#">
+                          The Countries With the Least Amount of Travel Buzz,
+                          According to Google</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md col-lg">
+                    <div class="card-body">
+                      <div class="img_container p-relative">
+                        <img src="img/sec-one-col2-2.png" alt="Lebanon" />
+                        <div class="div-img px-2 pb-2 c-pointer">
+                          <span class="c-gray font-weight-bold">INDIA</span>
+                        </div>
+                      </div>
+                      <div>
+                        <a class="center-card-title" rel="noopener" href="#">
+                          Delhi's 'Hijabi Biker' Breaks India's Stereotypes
+                          Riding 'Ninja' Motorbike</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md col-lg">
+                    <div class="card-body">
+                      <div class="img_container p-relative">
+                        <img src="img/sec-one-col2-3.jpg" alt="Lebanon" />
+                        <div class="div-img px-2 pb-2 c-pointer">
+                          <span class="c-gray font-weight-bold">MUSEUMS</span>
+                        </div>
+                      </div>
+                      <div>
+                        <a class="center-card-title" rel="noopener" href="#">
+                          Planning a Trip to One of NYC's Recently Opened
+                          Museums? What to Know</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- ###############################################################################
+
+           MORE STORIES
+
+        ################################################################################   -->
+                <div
+                  class="row mt-2 d-flex order-1 order-sm-1 order-md-3 order-lg-3"
+                >
+                  <div class="col-sm-12">
+                    <h6 class="first-title">MORE STORIES</h6>
+                  </div>
+                  <div class="col-sm-12">
+                    <div class="m-top-stories">
+                      <img
+                        class="float-left wrapper-image"
+                        src="https://d.newsweek.com/en/full/1637681/biden.jpg?w=95&h=95&f=37b0519e9ae086f8f4f45acd9c52be10"
+                        alt="Profile picture"
+                      />
+                      <div class="more-stories-text">
+                        <a
+                          class="c-black link-black card-right-text"
+                          rel="noopener"
+                          href="#"
+                        >
+                          As Trump Boosts Ad Spend, Biden Unveils $65 Million
+                          Blitz in Battlegrounds
+                        </a>
+                        <p>
+                          The Biden campaign announced the spending after
+                          Trump's team said it would be spending an unspecified
+                          eight-figure sum on advertisements.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="m-top-stories">
+                      <img
+                        class="float-left wrapper-image"
+                        src="https://d.newsweek.com/en/full/1637735/mosquito-control-fl.jpg?w=95&h=95&f=fd44735b7f5f80e99b73c8149d2d26a3"
+                        alt="Profile picture"
+                      />
+                      <div class="more-stories-text">
+                        <a
+                          class="c-black link-black card-right-text"
+                          rel="noopener"
+                          href="#"
+                        >
+                          What Is the Triple E Virus? Mosquito-Borne Illness
+                          Suspected in Michigan
+                        </a>
+                        <p>
+                          Triple E is a rare but deadly disease, with a 33
+                          percent fatality rate in humans and 90 percent
+                          fatality rate among horses.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="m-top-stories">
+                      <img
+                        class="float-left wrapper-image"
+                        src="https://d.newsweek.com/en/full/1637737/elon-musk.jpg?w=95&h=95&f=0d83b5f8d4b5df8e2f7e4e5f1ab0ef89"
+                        alt="Profile picture"
+                      />
+                      <div class="more-stories-text">
+                        <a
+                          class="c-black link-black card-right-text"
+                          rel="noopener"
+                          href="#"
+                        >
+                          Musk Says Electric Cars in Tunnels Under Cities Will
+                          'Feel Like Warp Drive'
+                        </a>
+                        <p>
+                          The Tesla and SpaceX boss announced on Twitter this
+                          week that The Boring Company's first operational
+                          tunnel in Las Vegas is "almost done."
+                        </p>
+                      </div>
+                    </div>
+                    <div class="m-top-stories">
+                      <img
+                        class="float-left wrapper-image"
+                        src="https://d.newsweek.com/en/full/1637711/donald-trump.jpg?w=95&h=95&f=8067d1adf10dc90fa84072244029e274"
+                        alt="Profile picture"
+                      />
+                      <div class="more-stories-text">
+                        <a
+                          class="c-black link-black card-right-text"
+                          rel="noopener"
+                          href="#"
+                        >
+                          Majority of American Voters Say Trump Has Given Up
+                          Coronavirus Fight
+                        </a>
+                        <p>
+                          Among those who voted for Trump in 2016, a quarter
+                          agree that he is no longer fighting hard to stop the
+                          spread of COVID-19.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="m-top-stories">
+                      <img
+                        class="float-left wrapper-image"
+                        src="img/sec-one-col2-4.jpg"
+                        alt="Profile picture"
+                      />
+                      <div class="more-stories-text">
+                        <a
+                          class="c-black link-black card-right-text"
+                          rel="noopener"
+                          href="#"
+                        >
+                          The Chinese Army Flops in India. What Will Xi Do Next?
+                        </a>
+                        <p>
+                          Respondents in South Korea and Denmark were
+                          particularly harsh, with 93 percent and 92 percent,
+                          respectively, saying the U.S. has done a bad job at
+                          handling the pandemic.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="m-top-stories">
+                      <img
+                        class="float-left wrapper-image"
+                        src="https://d.newsweek.com/en/full/1637708/concentration-camps-survey-millenials-gen-z.jpg?w=95&h=95&f=b6a68d93572c0f58d408971bbc9b934e"
+                        alt="Profile picture"
+                      />
+                      <div class="more-stories-text">
+                        <a
+                          class="c-black link-black card-right-text"
+                          rel="noopener"
+                          href="#"
+                        >
+                          48 Percent of Millennials, Gen Z Can't Name Single
+                          Concentration Camp
+                        </a>
+                        <p>
+                          The Nazis established 44,000 concentration camps and
+                          other incarceration sites during the Holocaust.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="m-top-stories">
+                      <img
+                        class="float-left wrapper-image"
+                        src="https://d.newsweek.com/en/full/1637532/trump-tower.jpg?w=95&h=95&f=c0789eb9326d24ac50856004eb398dc9"
+                        alt="Profile picture"
+                      />
+                      <div class="more-stories-text">
+                        <a
+                          class="c-black link-black card-right-text"
+                          rel="noopener"
+                          href="#"
+                        >
+                          Chicago Police Guard Trump Tower Amid Mexican
+                          Independence Day Celebrations
+                        </a>
+                        <p>
+                          Officials blocked off several streets in the downtown
+                          area, citing traffic from the celebrations ahead of
+                          Mexico's Independence Day on September 16.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="m-top-stories">
+                      <img
+                        class="float-left wrapper-image"
+                        src="img/sec-one-col2-4.jpg"
+                        alt="Profile picture"
+                      />
+                      <div class="more-stories-text">
+                        <a
+                          class="c-black link-black card-right-text"
+                          rel="noopener"
+                          href="#"
+                        >
+                          The Chinese Army Flops in India. What Will Xi Do Next?
+                        </a>
+                        <p>
+                          Respondents in South Korea and Denmark were
+                          particularly harsh, with 93 percent and 92 percent,
+                          respectively, saying the U.S. has done a bad job at
+                          handling the pandemic.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="m-top-stories">
+                      <img
+                        class="float-left wrapper-image"
+                        src="https://d.newsweek.com/en/full/1612456/neo-nazis-white-supremacist-swatting-john-kelley.jpg?w=95&h=95&f=e431d5bd262b004116bb920d808f22fe"
+                        alt="Profile picture"
+                      />
+                      <div class="more-stories-text">
+                        <a
+                          class="c-black link-black card-right-text"
+                          rel="noopener"
+                          href="#"
+                        >
+                          Dozens of German Police Officers Suspended For Sharing
+                          Neo-Nazi Propaganda
+                        </a>
+                        <p>
+                          A total of 29 officers have been removed from their
+                          positions for swapping extremist messages on WhatsApp
+                          groups.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="m-top-stories">
+                      <img
+                        class="float-left wrapper-image"
+                        src="https://d.newsweek.com/en/full/1637600/trump.jpg?w=95&h=95&f=b202510aa62ce4b10e5ef9434663ae20"
+                        alt="Profile picture"
+                      />
+                      <div class="more-stories-text">
+                        <a
+                          class="c-black link-black card-right-text"
+                          rel="noopener"
+                          href="#"
+                        >
+                          Amid Stimulus Impasse, Trump Says He'll Talk to Pelosi
+                          'At The Right Time'
+                        </a>
+                        <p>
+                          The president has previously blamed the Democrats for
+                          the delay in securing a further relief package,
+                          suggesting they think one will boost his election
+                          chances.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="m-top-stories">
+                      <img
+                        class="float-left wrapper-image"
+                        src="https://d.newsweek.com/en/full/1637710/michael-cohen.jpg?w=95&h=95&f=a95cc44b1acac5079b20bae8174e37ca"
+                        alt="Profile picture"
+                      />
+                      <div class="more-stories-text">
+                        <a
+                          class="c-black link-black card-right-text"
+                          rel="noopener"
+                          href="#"
+                        >
+                          Cohen Says Trump's Tax Return Release Would 'Possibly'
+                          Show 'Tax Fraud'
+                        </a>
+                        <p>
+                          Trump's disgraced ex-lawyer and fixer said that the
+                          president's "wealth is not as significant" as he
+                          claims.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="m-top-stories">
+                      <img
+                        class="float-left wrapper-image"
+                        src="https://d.newsweek.com/en/full/1637535/rep-eliot-engel-house-committee-foreign-affairs.jpg?w=95&h=95&f=eb0dfd2e38ac5897b4f6150e02d41dd5"
+                        alt="Profile picture"
+                      />
+                      <div class="more-stories-text">
+                        <a
+                          class="c-black link-black card-right-text"
+                          rel="noopener"
+                          href="#"
+                        >
+                          House Committee Says State Dept. Tried to Hide
+                          Casualties in Arms Report
+                        </a>
+                        <p>
+                          The House Foreign Affairs Committee released
+                          correspondence which it says shows the State
+                          Department's attempts to redact civilian casualties
+                          information from a report into arms sale to three Gulf
+                          states.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="m-top-stories">
+                      <img
+                        class="float-left wrapper-image"
+                        src="https://d.newsweek.com/en/full/1626533/kanye-west.jpg?w=95&h=95&f=d73397f7f9f1fcc43c61777fa5a874a0"
+                        alt="Profile picture"
+                      />
+                      <div class="more-stories-text">
+                        <a
+                          class="c-black link-black card-right-text"
+                          rel="noopener"
+                          href="#"
+                        >
+                          Kanye West Shares Putin Image in Cryptic Message
+                          Against Music Industry
+                        </a>
+                        <p>
+                          Kanye West returned to Twitter Tuesday night to share
+                          a scathing critique of the music industry and a
+                          mock-up album cover featuring Russian President,
+                          Vladimir Putin.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- ###############################################################################
+
+           THE DEBATE
+
+        ################################################################################   -->
+              <div class="col-lg">
+                <div class="d-none d-md-block">
+                  <div class="card-right">
+                    <h6 class="first-title">THE DEBATE</h6>
+                    <div class="wrapper p-relative py-3">
+                      <div
+                        class="card-right-item1 b-top-4 d-flex col-gap-10 pb-1"
+                      >
+                        <div class="card-right-pic">
+                          <img
+                            src="img/john-rosenthal.png"
+                            alt="Profile picture"
+                          />
+                        </div>
+                        <div class="card-right-text">
+                          <a class="c-black link-black" rel="noopener" href="#">
+                            Americans' Very Right to Keep and Bear Arms Is on
+                            the Ballot This Election
+                          </a>
+                          <p class="card-right-text2">
+                            <span> BY </span>JOHN R. LOTT, JR
+                          </p>
+                        </div>
+                      </div>
+                      <div class="decoration-container text-center w-100 my-3">
+                        <span class="decoration p-relative align-middle"
+                          >VS</span
+                        >
+                      </div>
+                      <div
+                        class="card-right-item1 d-flex space-between col-gap-10 b-bottom-4 pb-2 pt-2"
+                      >
+                        <div class="card-right-text">
+                          <a class="c-black link-black" rel="noopener" href="#">
+                            Individual Gun Ownership Is Not at Stake in This
+                            Election
+                          </a>
+                          <p class="card-right-text2">
+                            <span> BY </span>JOHN E. ROSENTHAL
+                          </p>
+                        </div>
+                        <div class="card-right-pic">
+                          <img
+                            src="img/john-rosenthal.png"
+                            alt="Profile picture"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-right mt-2">
+                    <h6 class="first-title">OPINION</h6>
+                    <div
+                      class="card-right-item1 d-flex col-gap-10 right-opinion mt-2"
+                    >
+                      <div class="card-right-pic">
+                        <img
+                          src="img/abdul-el-sayed.png"
+                          alt="Profile picture"
+                        />
+                      </div>
+                      <div class="card-right-text">
+                        <a class="c-black link-black" rel="noopener" href="#">
+                          The COVID-19 Vaccine Can Be a Shot in the Arm for
+                          Americans—or Trump
+                        </a>
+                        <p class="card-right-sub-text">
+                          <span> BY </span>ABDUL EL-SAYED
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="card-right-item1 d-flex col-gap-10 right-opinion mt-2"
+                  >
+                    <div class="card-right-pic">
+                      <img src="img/sec-one-col3-2.png" alt="Profile picture" />
+                    </div>
+                    <div class="card-right-text">
+                      <a class="c-black link-black" rel="noopener" href="#">
+                        On 9/11, Remember the Veterans Who Stood to Defend
+                        America
+                      </a>
+                      <p class="card-right-sub-text">
+                        <span> BY </span>ROBERT WILKIE
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="card-right-item1 d-flex col-gap-10 right-opinion mt-2"
+                  >
+                    <div class="card-right-pic">
+                      <img src="img/sec-one-col3-3.png" alt="Profile picture" />
+                    </div>
+                    <div class="card-right-text">
+                      <a class="c-black link-black" rel="noopener" href="#">
+                        Barr's Move to Defend Trump Against Carroll Is a
+                        Betrayal of All Survivors
+                      </a>
+                      <p class="card-right-sub-text">
+                        <span> BY </span>JOAN COOK AND ANNE P. DEPRINCE
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="card-right-item1 d-flex col-gap-10 right-opinion mt-2"
+                  >
+                    <div class="card-right-pic">
+                      <img src="img/sec-one-col3-4.png" alt="Profile picture" />
+                    </div>
+                    <div class="card-right-text">
+                      <a class="c-black link-black" rel="noopener" href="#">
+                        The Chinese Army Flops in India. What Will Xi Do Next?
+                      </a>
+                      <p class="card-right-sub-text">
+                        <span> BY </span>GORDON G. CHANG
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="card-right-item1 d-flex col-gap-10 right-opinion mt-2"
+                  >
+                    <div class="card-right-pic">
+                      <img src="img/sec-one-col3-5.png" alt="Profile picture" />
+                    </div>
+                    <div class="card-right-text">
+                      <a class="c-black link-black" rel="noopener" href="#">
+                        Secession, From Either Left or Right
+                      </a>
+                      <p class="card-right-sub-text">
+                        <span> BY </span> MICHAEL ANTON
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="card-right-item1 d-flex col-gap-10 right-opinion mt-2"
+                  >
+                    <div class="card-right-pic">
+                      <img src="img/sec-one-col3-6.png" alt="Profile picture" />
+                    </div>
+                    <div class="card-right-text">
+                      <a class="c-black link-black" rel="noopener" href="#">
+                        Trump Will Never Understand Marines Like Me
+                      </a>
+                      <p class="card-right-sub-text">
+                        <span> BY </span>KYLE BIBBY
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card-right-item1 d-flex col-gap-10 mt-2">
+                    <div class="card-right-pic">
+                      <img src="img/sec-one-col3-7.png" alt="Profile picture" />
+                    </div>
+                    <div class="card-right-text">
+                      <a class="c-black link-black" rel="noopener" href="#">
+                        College Administrators Must Address Anti-Semitism on
+                        Their Campuses
+                      </a>
+                      <p class="card-right-sub-text">
+                        <span> BY </span>LAURI B. REGAN AND ASAF ROMIROWSKY
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- ###############################################################################
+
+           SPONSORED INSIGHT
+
+        ################################################################################   -->
+                <div class="sponsored-insight row mt-2">
+                  <div class="col-md"></div>
+                  <div class="col-md col-lg-12 stories">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="p-relative">
+                          <img src="img/sec-one-col3-9.jpg" alt="Lebanon" />
+                          <div class="div-img px-1 py-1">
+                            <span class="s-color font-weight-bold"
+                              >SPONSORED INSIGHT</span
+                            >
+                          </div>
+                        </div>
+                        <div class="padding-l-b-r-20 border-1 mb-4">
+                          <div class="card-title">
+                            <a
+                              class="c-black link-black"
+                              rel="noopener"
+                              href="#"
+                            >
+                              What Could a Career in Engineering or Computer
+                              Science Do For You?</a
+                            >
+                          </div>
+                          <p class="card-text">
+                            Could this be the perfect time for you to pursue a
+                            career in engineering or computer science? Find out
+                            how to get started.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="sign-up">
+                      <div class="d-flex">
+                        <div class="img-icon"></div>
+                        <p>START YOUR DAY WITH OUR TOP 5 ARTICLES</p>
+                      </div>
+                      <div>
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Email address"
+                        />
+                        <button class="btn btn-block mt-1 p-bg-c c-white">
+                          FREE SIGN UP
+                          <svg
+                            width="1em"
+                            height="1em"
+                            viewBox="0 0 16 16"
+                            class="bi bi-chevron-right font-weight-bold"
+                            fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="p-relative">
+                        <img src="img/sec-one-col3-10.jpg" alt="Lebanon" />
+                        <div class="div-img px-1 py-1">
+                          <span class="s-color font-weight-bold"
+                            >SPONSORED INSIGHT</span
+                          >
+                        </div>
+                      </div>
+                      <div class="padding-l-b-r-20 border-1 mb-4">
+                        <div class="card-title">
+                          <a class="c-black link-black" rel="noopener" href="#">
+                            What Makes the Best Lawyers Stand Out?</a
+                          >
+                        </div>
+                        <p class="card-text">
+                          The unthinkable has happened and you need a good
+                          lawyer to turn to, how do you chose?
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="p-relative">
+                        <img src="img/sec-one-col3-11.jpg" alt="Lebanon" />
+                        <div class="div-img px-1 py-1">
+                          <span class="s-color font-weight-bold"
+                            >SPONSORED INSIGHT</span
+                          >
+                        </div>
+                      </div>
+                      <div class="padding-l-b-r-20 border-1 mb-4">
+                        <div class="card-title">
+                          <a class="c-black link-black" rel="noopener" href="#">
+                            Millennial Money: Real Estate Investing Mistakes
+                            That Lead to "Sunk Costs" in 2020</a
+                          >
+                        </div>
+                        <p class="card-text">
+                          Here are the 7 real estate investing mistakes you need
+                          to avoid and ergo, save your profits.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="p-relative">
+                        <img src="img/sec-one-col3-12.png" alt="Lebanon" />
+                        <div class="div-img px-1 py-1">
+                          <span class="s-color font-weight-bold">RANKINGS</span>
+                        </div>
+                      </div>
+                      <div class="padding-l-b-r-20 border-1 mb-4">
+                        <div class="card-title">
+                          <a class="c-black link-black" rel="noopener" href="#">
+                            America's Best Addiction Treatment Centers 2020</a
+                          >
+                        </div>
+                        <p class="card-text">
+                          Newsweek partnered with global market research firm
+                          Statista Inc. to rank the best U.S. treatment
+                          facilities that focus on addiction.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="p-relative">
+                        <img src="img/sec-one-col3-13.jpg" alt="Lebanon" />
+                        <div class="div-img px-1 py-1">
+                          <span class="s-color font-weight-bold">RANKINGS</span>
+                        </div>
+                      </div>
+                      <div class="padding-l-b-r-20 border-1 mb-4">
+                        <div class="card-title">
+                          <a class="c-black link-black" rel="noopener" href="#">
+                            America's Best Addiction Treatment Centers 2020</a
+                          >
+                        </div>
+                        <p class="card-text">
+                          Newsweek partnered with global market research firm
+                          Statista Inc. to rank the best U.S. treatment
+                          facilities that focus on addiction.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="p-relative">
+                        <img src="img/sec-one-col3-14.png" alt="Lebanon" />
+                        <div class="div-img px-1 py-1">
+                          <span class="s-color font-weight-bold">RANKINGS</span>
+                        </div>
+                      </div>
+                      <div class="padding-l-b-r-20 border-1 mb-4">
+                        <div class="card-title">
+                          <a class="c-black link-black" rel="noopener" href="#">
+                            Best Infection Prevention Products</a
+                          >
+                        </div>
+                        <p class="card-text">
+                          During the coronavirus outbreak, health care is more
+                          important than ever. In Newsweek's first Best Health
+                          Care series, we highlight the best infection
+                          prevention products.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="p-relative">
+                        <img src="img/sec-one-col3-10.jpg" alt="Lebanon" />
+                      </div>
+                      <div class="padding-l-b-r-20 border-1 mb-4">
+                        <div class="card-title">
+                          <a class="c-black link-black" rel="noopener" href="#">
+                            Best Nursing Homes 2021</a
+                          >
+                        </div>
+                        <p class="card-text">
+                          Newsweek is partnering with the respected global data
+                          research firm Statista Inc. to establish a ranking of
+                          Best Nursing Homes 2021. If you work in this field,
+                          please participate in our survey.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section-two">
+            <!-- ###############################################################################
+
+           IN THE MAGAZINE SECTION TWO
+
+        ################################################################################   -->
+            <div class="magazine col-sm-12 d-flex mt-2">
+              <div class="img-icon"></div>
+              <h3>IN THE MAGAZINE</h3>
+            </div>
+            <div class="row color-white">
+              <div class="col-md-3">
+                <div class="img_container p-relative">
+                  <img src="img/mag0.jpg" alt="usa" />
+                  <div class="div-img px-2 pb-2">
+                    <a class="p-color font-weight-bold" rel="noopener" href="#"
+                      >SEPTEMBER 18 ISSUE</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="img_container p-relative mt-4">
+                  <div class="img-div">
+                    <img src="img/mag1.jpg" alt="usa" />
+                  </div>
+                  <div class="magazine-footer-div d-flex mt-2">
+                    <div class="magazine-footer-text1">cover</div>
+                    <a
+                      class="p-color font-weight-bold magazine-footer-text2"
+                      rel="noopener"
+                      href="#"
+                      >business</a
+                    >
+                  </div>
+                </div>
+                <div class="card-title-2">
+                  <a class="c-black link-black" rel="noopener" href="#"
+                    >How the Pandemic Will Change the Way We Manage Money
+                    Forever</a
+                  >
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="img_container p-relative mt-4">
+                  <div class="img-div">
+                    <img alt="Articles" src="img/mag2.jpg" />
+                  </div>
+                  <div class="magazine-footer-div d-flex mt-2">
+                    <div class="magazine-footer-text1">cover</div>
+                    <a
+                      class="p-color font-weight-bold magazine-footer-text2"
+                      rel="noopener"
+                      href="#"
+                      >business</a
+                    >
+                  </div>
+                </div>
+                <div class="card-title-2">
+                  <a class="c-black link-black" rel="noopener" href="#"
+                    >Five Money Moves to Make Right Now to Overcome Your Biggest
+                    Financial Worries</a
+                  >
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="img_container p-relative mt-4">
+                  <div class="img-div">
+                    <img alt="Articles" src="img/mag3.jpg" />
+                  </div>
+                  <div class="magazine-footer-div d-flex mt-2">
+                    <div class="magazine-footer-text1">Periscope</div>
+                    <a
+                      class="p-color font-weight-bold magazine-footer-text2"
+                      rel="noopener"
+                      href="#"
+                      >politics</a
+                    >
+                  </div>
+                </div>
+                <div class="card-title-2">
+                  <a class="c-black link-black" rel="noopener" href="#"
+                    >Obama Fear of Retaliation Limited Response to Russian
+                    Meddling, Book Reveal</a
+                  >
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="img_container p-relative mt-4">
+                  <div class="img-div">
+                    <img alt="Articles" src="img/mag4.jpg" />
+                  </div>
+                  <div class="magazine-footer-div d-flex mt-2">
+                    <div class="magazine-footer-text1">Periscope</div>
+                    <a
+                      class="p-color font-weight-bold magazine-footer-text2"
+                      rel="noopener"
+                      href="#"
+                      >culture</a
+                    >
+                  </div>
+                </div>
+                <div class="card-title-2">
+                  <a class="c-black link-black" rel="noopener" href="#"
+                    >CIA Directors are Not 'Yes-Men'</a
+                  >
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="img_container p-relative mt-4">
+                  <div class="img-div">
+                    <img alt="Articles" src="img/mag5.jpg" />
+                  </div>
+                  <div class="magazine-footer-div d-flex mt-2">
+                    <div class="magazine-footer-text1">downtime</div>
+                    <a
+                      class="p-color font-weight-bold magazine-footer-text2"
+                      rel="noopener"
+                      href="#"
+                      >culture</a
+                    >
+                  </div>
+                </div>
+                <div class="card-title-2">
+                  <a class="c-black link-black" rel="noopener" href="#"
+                    >25 Must-Read Fall Fiction and Nonfiction Books to Escape
+                    the Chaos of 2020
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="img_container p-relative mt-4">
+                  <div class="img-div">
+                    <img alt="Articles" src="img/mag6.jpg" />
+                  </div>
+                  <div class="magazine-footer-div d-flex mt-2">
+                    <div class="magazine-footer-text1">downtime</div>
+                    <a
+                      class="p-color font-weight-bold magazine-footer-text2"
+                      rel="noopener"
+                      href="#"
+                      >culture</a
+                    >
+                  </div>
+                </div>
+                <div class="first-title">
+                  <a class="c-black link-black" rel="noopener" href="#"
+                    >“We Were Warned”</a
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section-three">
+            <div class="magazine col-sm-12 d-flex mt-2">
+              <div class="img-icon"></div>
+              <h3>EDITOR'S PICK</h3>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-lg">
+                <div class="card-body">
+                  <div class="img_container p-relative">
+                    <img src="img/editor1.jpg" alt="Venus" />
+                    <div class="div-img px-2 pb-2">
+                      <a
+                        class="p-color font-weight-bold"
+                        rel="noopener"
+                        href="#"
+                        >TECH & SCIENCE</a
+                      >
+                    </div>
+                  </div>
+                  <h5 class="card-title">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Sign of Alien Life May Have Been Found in the Clouds of
+                      Venus</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    Researchers who have observed the planet using the James
+                    Clerk Maxwell Telescope (JCMT) in Hawaii, believe there is
+                    evidence to suggest alien life may exist on Venus.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg">
+                <div class="card-body">
+                  <div class="img_container p-relative">
+                    <img src="img/editor2.jpg" alt="Covid" />
+                    <div class="div-img px-2 pb-2">
+                      <a
+                        class="p-color font-weight-bold"
+                        rel="noopener"
+                        href="#"
+                        >News</a
+                      >
+                    </div>
+                  </div>
+                  <h5 class="card-title">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      When Will There Be a COVID-19 Vaccine and Should You Trust
+                      That It's Safe?</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    Americans want a COVID-19 vaccine—but worry that it could be
+                    rushed out before the election. Here's what the science
+                    says.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg">
+                <div class="card-body">
+                  <div class="img_container p-relative">
+                    <img src="img/editor3.jpg" alt="Lebanon" />
+                    <div class="div-img px-2 pb-2">
+                      <a
+                        class="p-color font-weight-bold"
+                        rel="noopener"
+                        href="#"
+                        >U.S.</a
+                      >
+                    </div>
+                  </div>
+                  <h5 class="card-title">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      As Wildfires Rage, Forecast High Winds Will Be a Blessing
+                      or a Curse</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    The stronger the gust, the more deadly the fire.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg">
+                <div class="card-body">
+                  <div class="img_container p-relative">
+                    <img src="img/editor4.jpg" alt="Sport" />
+                    <div class="div-img px-2 pb-2">
+                      <a
+                        class="p-color font-weight-bold"
+                        rel="noopener"
+                        href="#"
+                        >Sport</a
+                      >
+                    </div>
+                  </div>
+                  <h5 class="card-title">
+                    <a class="c-black link-black" rel="noopener" href="#"
+                      >Every NFL Team to Protest During the National Anthem in
+                      Week 1
+                    </a>
+                  </h5>
+                  <p class="card-text">
+                    The Green Bay Packers, Jacksonville Jaguars, Buffalo Bills
+                    and New York Jets all stayed in the locker rooms during the
+                    national anthem on Sunday.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- ###############################################################################
+
+           SECOND ROW
+
+        ################################################################################   -->
+            <div class="row">
+              <div class="col-md-6 col-lg">
+                <div class="card-body">
+                  <div class="img_container p-relative">
+                    <img src="img/editor3.jpg" alt="Venus" />
+                    <div class="div-img px-2 pb-2">
+                      <a
+                        class="p-color font-weight-bold"
+                        rel="noopener"
+                        href="#"
+                        >TECH & SCIENCE</a
+                      >
+                    </div>
+                  </div>
+                  <h5 class="card-title">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Sign of Alien Life May Have Been Found in the Clouds of
+                      Venus</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    Researchers who have observed the planet using the James
+                    Clerk Maxwell Telescope (JCMT) in Hawaii, believe there is
+                    evidence to suggest alien life may exist on Venus.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg">
+                <div class="card-body">
+                  <div class="img_container p-relative">
+                    <img src="img/editor4.jpg" alt="Covid" />
+                    <div class="div-img px-2 pb-2">
+                      <a
+                        class="p-color font-weight-bold"
+                        rel="noopener"
+                        href="#"
+                        >News</a
+                      >
+                    </div>
+                  </div>
+                  <h5 class="card-title">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      When Will There Be a COVID-19 Vaccine and Should You Trust
+                      That It's Safe?</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    Americans want a COVID-19 vaccine—but worry that it could be
+                    rushed out before the election. Here's what the science
+                    says.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg">
+                <div class="card-body">
+                  <div class="img_container p-relative">
+                    <img src="img/editor1.jpg" alt="Lebanon" />
+                    <div class="div-img px-2 pb-2">
+                      <a
+                        class="p-color font-weight-bold"
+                        rel="noopener"
+                        href="#"
+                        >U.S.</a
+                      >
+                    </div>
+                  </div>
+                  <h5 class="card-title">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      As Wildfires Rage, Forecast High Winds Will Be a Blessing
+                      or a Curse</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    The stronger the gust, the more deadly the fire.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg">
+                <div class="card-body">
+                  <div class="img_container p-relative">
+                    <img src="img/editor2.jpg" alt="Sport" />
+                    <div class="div-img px-2 pb-2">
+                      <a
+                        class="p-color font-weight-bold"
+                        rel="noopener"
+                        href="#"
+                        >Sport</a
+                      >
+                    </div>
+                  </div>
+                  <h5 class="card-title">
+                    <a class="c-black link-black" rel="noopener" href="#"
+                      >Every NFL Team to Protest During the National Anthem in
+                      Week 1
+                    </a>
+                  </h5>
+                  <p class="card-text">
+                    The Green Bay Packers, Jacksonville Jaguars, Buffalo Bills
+                    and New York Jets all stayed in the locker rooms during the
+                    national anthem on Sunday.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section-four container-fluid">
+            <div class="magazine col-sm-12 d-flex mt-2"></div>
+            <div class="row">
+              <h5 class="p-color col-sm font-weight-bold">U.S</h5>
+            </div>
+            <div class="row">
+              <div class="col-md col-lg">
+                <div class="card-body1 mt-2">
+                  <div class="img_container p-relative">
+                    <img src="img/us1.jpg" alt="usa" />
+                  </div>
+                  <div class="card-title">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      U.S. Army Vet Uses Obituary to Tell Trump He Wasn't a
+                      'Sucker or a Loser'</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md col-lg">
+                <div class="card-body1 mt-2">
+                  <div class="img_container p-relative">
+                    <img src="img/us2.jpg" alt="usa" />
+                  </div>
+                  <div class="card-title">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      U.S. Army Vet Uses Obituary to Tell Trump He Wasn't a
+                      'Sucker or a Loser'</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md col-lg">
+                <div
+                  class="card-right-item1 pb-2 d-flex col-gap-10 right-opinion mt-2"
+                >
+                  <div class="card-right-pic-2">
+                    <img src="img/us31.jpg" alt="US picture" />
+                  </div>
+                  <div class="card-right-text">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      zzz The COVID-19 Vaccine Can Be a Shot in the Arm for
+                      Americans—or Trump
+                    </a>
+                  </div>
+                </div>
+
+                <div class="card-right-item1 d-flex col-gap-10 mt-2">
+                  <div class="card-right-pic-2">
+                    <img src="img/us3.jpg" alt="US picture" />
+                  </div>
+                  <div class="card-right-text">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Hurricane Sally Storm Surge Floods Alabama Beaches a Day
+                      Before Landfall
+                    </a>
+                  </div>
+                </div>
+
+                <div class="card-right-item1 d-flex col-gap-10 mt-2">
+                  <div class="card-right-pic-2">
+                    <img src="img/us4.jpg" alt="US picture" />
+                  </div>
+                  <div class="card-right-text">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Kentucky Officials Warn of Two Election Scams Actively
+                      Targeting Voters
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ###############################################################################
+
+           WORLD
+
+        ################################################################################   -->
+            <div class="magazine col-sm-12 d-flex mt-2"></div>
+            <div class="row">
+              <h5 class="p-color col-sm font-weight-bold">WORLD</h5>
+            </div>
+            <div class="row">
+              <div class="col-md col-lg">
+                <div class="card-body1 mt-2">
+                  <div class="img_container p-relative">
+                    <img src="img/wold1.jpg" alt="usa" />
+                  </div>
+                  <div class="card-title">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Nancy Pelosi Meets U.K. Officials to Voice Brexit
+                      Concerns</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md col-lg">
+                <div class="card-body1 mt-2">
+                  <div class="img_container p-relative">
+                    <img src="img/wold2.jpg" alt="usa" />
+                  </div>
+                  <div class="card-title">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Malaysian Man Finds Selfies of Monkey on iPhone He Lost</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md col-lg">
+                <div
+                  class="card-right-item1 pb-3 d-flex col-gap-10 right-opinion mt-2"
+                >
+                  <div class="card-right-pic-2">
+                    <img src="img/us31.jpg" alt="US picture" />
+                  </div>
+                  <div class="card-right-text">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Iran Dismisses Israel-UAE-Bahrain Deal as 'Strategic
+                      Mistake'
+                    </a>
+                  </div>
+                </div>
+
+                <div class="card-right-item1 d-flex col-gap-10 mt-2">
+                  <div class="card-right-pic-2">
+                    <img src="img/us3.jpg" alt="US picture" />
+                  </div>
+                  <div class="card-right-text">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Qatar Walks Tightrope Between Iran and the U.S., Is
+                      Prepared to Host Talks
+                    </a>
+                  </div>
+                </div>
+
+                <div class="card-right-item1 d-flex col-gap-10 mt-2">
+                  <div class="card-right-pic-2">
+                    <img src="img/us4.jpg" alt="US picture" />
+                  </div>
+                  <div class="card-right-text">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Qatar Walks Tightrope Between Iran and the U.S., Is
+                      Prepared to Host Talks
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ###############################################################################
+
+           BUSINESS
+
+        ################################################################################   -->
+            <div class="magazine col-sm-12 d-flex mt-2"></div>
+            <div class="row">
+              <h5 class="p-color col-sm font-weight-bold">BUSINESS</h5>
+            </div>
+            <div class="row">
+              <div class="col-md col-lg">
+                <div class="card-body1 mt-2">
+                  <div class="img_container p-relative">
+                    <img src="img/business1.jpg" alt="usa" />
+                  </div>
+                  <div class="card-title">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Judge Rules Pennsylvania's 'New Normal' COVID Restrictions
+                      Unconstitutional</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md col-lg">
+                <div class="card-body1 mt-2">
+                  <div class="img_container p-relative">
+                    <img src="img/business2.jpg" alt="usa" />
+                  </div>
+                  <div class="card-title">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Judge Rules Pennsylvania's 'New Normal' COVID Restrictions
+                      Unconstitutional</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md col-lg">
+                <div
+                  class="card-right-item1 pb-3 d-flex col-gap-10 right-opinion mt-2"
+                >
+                  <div class="card-right-pic-2">
+                    <img src="img/us31.jpg" alt="US picture" />
+                  </div>
+                  <div class="card-right-text">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Rochester Eatery Offered BLM Protesters Water Hours Before
+                      Being Vandalized
+                    </a>
+                  </div>
+                </div>
+
+                <div class="card-right-item1 d-flex col-gap-10 mt-2">
+                  <div class="card-right-pic-2">
+                    <img src="img/us3.jpg" alt="US picture" />
+                  </div>
+                  <div class="card-right-text">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Are Starbucks, Dunkin' Donuts Open on Labor Day? See
+                      Coffee Shop Hours
+                    </a>
+                  </div>
+                </div>
+
+                <div class="card-right-item1 d-flex col-gap-10 mt-2">
+                  <div class="card-right-pic-2">
+                    <img src="img/us4.jpg" alt="US picture" />
+                  </div>
+                  <div class="card-right-text">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Officials Keep U.S.-China Trade Deal Alive Despite
+                      'Tantrum Diplomacy'
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ###############################################################################
+
+          TECH & SCIENCE
+
+        ################################################################################ -->
+            <div class="magazine col-sm-12 d-flex mt-2"></div>
+            <div class="row">
+              <h5 class="p-color col-sm font-weight-bold">TECH & SCIENCE</h5>
+            </div>
+            <div class="row">
+              <div class="col-md col-lg">
+                <div class="card-body1 mt-2">
+                  <div class="img_container p-relative">
+                    <img src="img/tech1.jpg" alt="usa" />
+                  </div>
+                  <div class="card-title">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Killer Whales 'Ripped Open' Great White Sharks, Ate Liver,
+                      Heart and Testes</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md col-lg">
+                <div class="card-body1 mt-2">
+                  <div class="img_container p-relative">
+                    <img src="img/tech2.jpg" alt="usa" />
+                  </div>
+                  <div class="card-title">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      In Historic First, Scientific American Magazine Endorses
+                      Joe Biden</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md col-lg">
+                <div
+                  class="card-right-item1 pb-3 d-flex col-gap-10 right-opinion mt-2"
+                >
+                  <div class="card-right-pic-2">
+                    <img src="img/us31.jpg" alt="US picture" />
+                  </div>
+                  <div class="card-right-text">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Iran Dismisses Israel-UAE-Bahrain Deal as 'Strategic
+                      Mistake'
+                    </a>
+                  </div>
+                </div>
+
+                <div class="card-right-item1 d-flex col-gap-10 mt-2">
+                  <div class="card-right-pic-2">
+                    <img src="img/us3.jpg" alt="US picture" />
+                  </div>
+                  <div class="card-right-text">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Qatar Walks Tightrope Between Iran and the U.S., Is
+                      Prepared to Host Talks
+                    </a>
+                  </div>
+                </div>
+
+                <div class="card-right-item1 d-flex col-gap-10 mt-2">
+                  <div class="card-right-pic-2">
+                    <img src="img/us4.jpg" alt="US picture" />
+                  </div>
+                  <div class="card-right-text">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Qatar Walks Tightrope Between Iran and the U.S., Is
+                      Prepared to Host Talks
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- CULTURE -->
+            <div class="magazine col-sm-12 d-flex mt-2"></div>
+            <div class="row">
+              <h5 class="p-color col-sm font-weight-bold">CULTURE</h5>
+            </div>
+            <div class="row">
+              <div class="col-md col-lg">
+                <div class="card-body1 mt-2">
+                  <div class="img_container p-relative">
+                    <img src="img/culture1.jpg" alt="usa" />
+                  </div>
+                  <div class="card-title">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      'Star Trek: Lower Decks' Clip Reveals Latest Starfleet
+                      Transporter Accident</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md col-lg">
+                <div class="card-body1 mt-2">
+                  <div class="img_container p-relative">
+                    <img src="img/culture2.jpg" alt="usa" />
+                  </div>
+                  <div class="card-title">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Karen and Miles' 'Disconnect' Is Worrying Woody on 'MAFS'
+                      Season 11</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md col-lg">
+                <div
+                  class="card-right-item1 pb-3 d-flex col-gap-10 right-opinion mt-2"
+                >
+                  <div class="card-right-pic-2">
+                    <img src="img/us31.jpg" alt="US picture" />
+                  </div>
+                  <div class="card-right-text">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      'The Expanse' Book 9 Titled 'Leviathan Falls,' Has 2021
+                      Release Date
+                    </a>
+                  </div>
+                </div>
+
+                <div class="card-right-item1 d-flex col-gap-10 mt-2">
+                  <div class="card-right-pic-2">
+                    <img src="img/us3.jpg" alt="US picture" />
+                  </div>
+                  <div class="card-right-text">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Man's Phone Goes Missing, Returns the Next Day Filled With
+                      Monkey Selfies
+                    </a>
+                  </div>
+                </div>
+
+                <div class="card-right-item1 d-flex col-gap-10 mt-2">
+                  <div class="card-right-pic-2">
+                    <img src="img/us4.jpg" alt="US picture" />
+                  </div>
+                  <div class="card-right-text">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      No One Loves Fall as Much as This Bunny Jumping for Joy in
+                      Leaves
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- SPORT -->
+            <div class="magazine col-sm-12 d-flex mt-2"></div>
+            <div class="row">
+              <h5 class="p-color col-sm font-weight-bold">SPORT</h5>
+            </div>
+            <div class="row">
+              <div class="col-md col-lg">
+                <div class="card-body1 mt-2">
+                  <div class="img_container p-relative">
+                    <img src="img/sport1.jpg" alt="usa" />
+                  </div>
+                  <div class="card-title">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Tyler Breeze Talks Finally Winning Gold, Fashion Files &
+                      Tag Team Wrestling</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md col-lg">
+                <div class="card-body1 mt-2">
+                  <div class="img_container p-relative">
+                    <img src="img/sport2.jpg" alt="usa" />
+                  </div>
+                  <div class="card-title">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Big Ten Calls an Audible, And it Will Now Play Football
+                      This Fall</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-md col-lg">
+                <div
+                  class="card-right-item1 pb-3 d-flex col-gap-10 right-opinion mt-2"
+                >
+                  <div class="card-right-pic-2">
+                    <img src="img/us31.jpg" alt="US picture" />
+                  </div>
+                  <div class="card-right-text">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Iran Dismisses Israel-UAE-Bahrain Deal as 'Strategic
+                      Mistake'
+                    </a>
+                  </div>
+                </div>
+
+                <div class="card-right-item1 d-flex col-gap-10 mt-2">
+                  <div class="card-right-pic-2">
+                    <img src="img/us3.jpg" alt="US picture" />
+                  </div>
+                  <div class="card-right-text">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Qatar Walks Tightrope Between Iran and the U.S., Is
+                      Prepared to Host Talks
+                    </a>
+                  </div>
+                </div>
+
+                <div class="card-right-item1 d-flex col-gap-10 mt-2">
+                  <div class="card-right-pic-2">
+                    <img src="img/us4.jpg" alt="US picture" />
+                  </div>
+                  <div class="card-right-text">
+                    <a class="c-black link-black" rel="noopener" href="#">
+                      Qatar Walks Tightrope Between Iran and the U.S., Is
+                      Prepared to Host Talks
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="container-fluid section-five color-white border-1 pb-4">
+          <div class="magazine col-sm-12 d-flex"></div>
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-7 col-xl-8">
+              <div>
+                <div>
+                  <h6 class="p-color font-weight-bold row mt-3 mb-2">
+                    SUBSCRIBE
+                  </h6>
+                </div>
+                <div
+                  class="subscribe p-3 pb-4 col-gap-10 align-self-left align-items-center"
+                >
+                  <div class="subscrib-pic wrapper p-relative">
+                    <img class="sub2" src="img/subscribe2.jpg" alt="Sub 2" />
+                    <img class="sub1" src="img/subscribe1.jpg" alt="Sub 1" />
+                  </div>
+                  <div class="subscrib-text text-center text-md-left">
+                    <div class="card-title-2">
+                      <span class="c-black">
+                        In-depth Stories You Don't See Elsewhere About Topics
+                        You Want to Read!</span
+                      >
+                    </div>
+                    <p class="newletter-text">
+                      All Access + Weekly Delivery.<br />
+                      Choose A Membership That's Perfect for You!
+                    </p>
+                    <button class="btn mt-1 p-bg-c c-white">
+                      SUBSCRIBE
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 16 16"
+                        class="bi bi-chevron-right font-weight-bold"
+                        fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-5 col-xl-4">
+              <div class="row">
+                <h6 class="p-color font-weight-bold row mt-3 mb-2">
+                  NEWSLETTER
+                </h6>
+              </div>
+              <div class="row border">
+                <div
+                  class="col-md-4 col-lg newletter-pic d-sm-none d-md-block"
+                ></div>
+                <div
+                  class="col-sm col-md-8 col-lg newletter-text text-center text-md-left mt-2 mb-3"
+                >
+                  <div class="card-title-2 mt-2 mb-2">
+                    <span class="c-black">The Starting 5</span>
+                  </div>
+                  <p class="news-l-p">
+                    See why nearly a quarter of a million subscribers begin
+                    their day with the Starting 5.
+                  </p>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Email adress"
+                  />
+                  <input
+                    type="submit"
+                    class="newsletter-form form-control"
+                    value="Free Sign Up"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- footer section -->
+      <footer class="footer color-white container-fluid p-0">
+        <div class="row pt-4">
+          <div
+            class="footer-div right-opinion col-sm-12 d-flex justify-content-between flex-wrap pb-1"
+          >
+            <div class="left-icon d-flex flex-wrap">
+              <a class="band" rel="noopener" href="#"
+                ><img src="img/red-newsweek-logo.png" alt=""
+              /></a>
+              <p class="copyright mt-3 col-md">&copy; 2020 NEWSWEEK</p>
+            </div>
+            <div class="right-div d-flex pb-xs-2">
+              <a rel="noopener" href="#"
+                ><i class="mr-3 fab fa-facebook-square"></i
+              ></a>
+              <a rel="noopener" href="#"><i class="mr-3 fab fa-twitter"></i></a>
+              <a rel="noopener" href="#"
+                ><i class="mr-3 fab fa-instagram"></i
+              ></a>
+              <a rel="noopener" href="#"><i class="mr-3 fab fa-tumblr"></i></a>
+              <a rel="noopener" href="#"
+                ><i class="mr-3 fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-links p-2 d-flex flex-wrap">
+          <span class="p-2">Editions:</span>
+          <a class="p-2 border-right-1" rel="noopener" href="#">U.S. Edition</a>
+          <a class="p-2 border-right-1" rel="noopener" href="#">日本</a>
+          <a class="p-2 border-right-1" rel="noopener" href="#">Pakistan</a>
+          <a class="p-2 border-right-1" rel="noopener" href="#">Polska</a>
+          <a class="p-2 border-right-1 border-right-0" rel="noopener" href="#"
+            >România</a
+          >
+        </div>
+        <div class="footer-links-2 footer-links p-2 d-flex flex-wrap">
+          <a class="p-2 border-right-1" rel="noopener" href="#">About Us</a>
+          <a class="p-2 border-right-1" rel="noopener" href="#">Corrections</a>
+          <a class="p-2 border-right-1" rel="noopener" href="#">Contact Us</a>
+          <a class="p-2 border-right-1" rel="noopener" href="#"
+            >Editorial Guidelines</a
+          >
+          <a class="p-2 border-right-1" rel="noopener" href="#">Advertise</a>
+          <a class="p-2 border-right-1" rel="noopener" href="#">Copyright</a>
+          <a class="p-2 border-right-1" rel="noopener" href="#"
+            >Terms & Conditions</a
+          >
+          <a class="p-2 border-right-1" rel="noopener" href="#"
+            >Privacy Policy</a
+          >
+          <a class="p-2 border-right-1" rel="noopener" href="#"
+            >Cookie Policy</a
+          >
+          <a class="p-2 border-right-1" rel="noopener" href="#"
+            >Terms of Sale</a
+          >
+          <a class="p-2 border-right-1" rel="noopener" href="#">Archive</a>
+          <a class="p-2 border-right-1" rel="noopener" href="#"
+            >Announcements</a
+          >
+          <a class="p-2 border-right-1 border-right-0" rel="noopener" href="#"
+            >Consent preferences</a
+          >
+        </div>
+      </footer>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

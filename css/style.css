@@ -34,11 +34,6 @@ NAVIGATION BAR SECTION
   background-color: #f72210;
 }
 
-.nav-text {
-  color: white;
-  font-weight: 700;
-}
-
 .btn-f-l {
   font-size: 11px;
   line-height: 20px;
@@ -91,6 +86,10 @@ NAVIGATION BAR SECTION
 
 .row {
   margin: 0;
+}
+
+.nav-icons-left {
+  font-size: 13.5px;
 }
 
 .p-absolute {
@@ -157,6 +156,10 @@ NAVIGATION BAR SECTION
 
 .card {
   border: none;
+}
+
+.col-gap-5 {
+  column-gap: 5px;
 }
 
 .col-gap-10 {
@@ -618,7 +621,7 @@ NAVIGATION BAR SECTION
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
   .nav-middle img {
     width: 320px;
     align-self: center;
